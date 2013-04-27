@@ -21,6 +21,8 @@
 		EAD4AC1D171E51120040E590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD4ABFE171E51120040E590 /* Foundation.framework */; };
 		EAD4AC25171E51120040E590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAD4AC23171E51120040E590 /* InfoPlist.strings */; };
 		EAD4AC28171E51120040E590 /* CookBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4AC27171E51120040E590 /* CookBookDemoTests.m */; };
+		EAD4AC33171E513D0040E590 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4AC32171E513D0040E590 /* MainViewController.m */; };
+		EAD4AC36171E6EB80040E590 /* NetWorkDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4AC35171E6EB80040E590 /* NetWorkDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		EAD4AC24171E51120040E590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAD4AC26171E51120040E590 /* CookBookDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookBookDemoTests.h; sourceTree = "<group>"; };
 		EAD4AC27171E51120040E590 /* CookBookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookBookDemoTests.m; sourceTree = "<group>"; };
+		EAD4AC31171E513D0040E590 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EAD4AC32171E513D0040E590 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EAD4AC34171E6EB80040E590 /* NetWorkDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkDemoController.h; sourceTree = "<group>"; };
+		EAD4AC35171E6EB80040E590 /* NetWorkDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkDemoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				EAD4AC0B171E51120040E590 /* AppDelegate.h */,
 				EAD4AC0C171E51120040E590 /* AppDelegate.m */,
 				EAD4AC03171E51120040E590 /* Supporting Files */,
+				EAD4AC31171E513D0040E590 /* MainViewController.h */,
+				EAD4AC32171E513D0040E590 /* MainViewController.m */,
+				EAD4AC34171E6EB80040E590 /* NetWorkDemoController.h */,
+				EAD4AC35171E6EB80040E590 /* NetWorkDemoController.m */,
 			);
 			path = CookBookDemo;
 			sourceTree = "<group>";
@@ -263,6 +273,8 @@
 			files = (
 				EAD4AC09171E51120040E590 /* main.m in Sources */,
 				EAD4AC0D171E51120040E590 /* AppDelegate.m in Sources */,
+				EAD4AC33171E513D0040E590 /* MainViewController.m in Sources */,
+				EAD4AC36171E6EB80040E590 /* NetWorkDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
