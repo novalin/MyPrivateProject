@@ -21,6 +21,7 @@
 		EAEBB3CB17291F9A001A7AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEBB3AC17291F9A001A7AD1 /* Foundation.framework */; };
 		EAEBB3D317291F9A001A7AD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEBB3D117291F9A001A7AD1 /* InfoPlist.strings */; };
 		EAEBB3D617291F9A001A7AD1 /* ImagePingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEBB3D517291F9A001A7AD1 /* ImagePingTests.m */; };
+		EAEBB3E6172921E8001A7AD1 /* MPMainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEBB3E5172921E8001A7AD1 /* MPMainMenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EAEBB3D217291F9A001A7AD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAEBB3D417291F9A001A7AD1 /* ImagePingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePingTests.h; sourceTree = "<group>"; };
 		EAEBB3D517291F9A001A7AD1 /* ImagePingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePingTests.m; sourceTree = "<group>"; };
+		EAEBB3E4172921E8001A7AD1 /* MPMainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMainMenuController.h; sourceTree = "<group>"; };
+		EAEBB3E5172921E8001A7AD1 /* MPMainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMainMenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		EAEBB3B017291F9A001A7AD1 /* ImagePing */ = {
 			isa = PBXGroup;
 			children = (
+				EAEBB3DF17292105001A7AD1 /* Class */,
 				EAEBB3B917291F9A001A7AD1 /* AppDelegate.h */,
 				EAEBB3BA17291F9A001A7AD1 /* AppDelegate.m */,
 				EAEBB3B117291F9A001A7AD1 /* Supporting Files */,
@@ -150,6 +154,47 @@
 				EAEBB3D117291F9A001A7AD1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEBB3DF17292105001A7AD1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EAEBB3E017292105001A7AD1 /* Controllers */,
+				EAEBB3E117292105001A7AD1 /* Models */,
+				EAEBB3E217292105001A7AD1 /* Utils */,
+				EAEBB3E317292105001A7AD1 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		EAEBB3E017292105001A7AD1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAEBB3E4172921E8001A7AD1 /* MPMainMenuController.h */,
+				EAEBB3E5172921E8001A7AD1 /* MPMainMenuController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAEBB3E117292105001A7AD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAEBB3E217292105001A7AD1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAEBB3E317292105001A7AD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +308,7 @@
 			files = (
 				EAEBB3B717291F9A001A7AD1 /* main.m in Sources */,
 				EAEBB3BB17291F9A001A7AD1 /* AppDelegate.m in Sources */,
+				EAEBB3E6172921E8001A7AD1 /* MPMainMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
